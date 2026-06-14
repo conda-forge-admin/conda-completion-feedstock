@@ -60,6 +60,8 @@ outputs:
       version: ${{ version }}
     build:
       number: 0
+      skip:
+        - win
       noarch: python
       script:
         env:
