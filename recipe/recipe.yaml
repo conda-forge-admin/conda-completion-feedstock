@@ -61,7 +61,7 @@ outputs:
     build:
       number: 0
       skip:
-        - win
+        - not linux64
       noarch: python
       script:
         env:
